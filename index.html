@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="UTF-8"/>
+<meta name="robots" content="noindex, nofollow"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Banio | Keramiske bordplader på mål | Albertslund</title>
+<meta name="description" content="Keramiske bordplader, køkkenvaske og spiseborde lavet på mål i vores eget skæreri i Albertslund. Italienske plader fra Atlas Plan, Florim og Fondovalle. Siden 1989."/>
+<link rel="canonical" href="https://www.banio.dk/"/>
+<meta property="og:title" content="Banio | Keramiske bordplader på mål"/>
+<meta property="og:description" content="Bordplader, køkkenvaske og spiseborde i keramik, skåret på mål i eget skæreri."/>
+<meta property="og:image" content="hero-kokken.webp"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.banio.dk/"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: {
+  colors: { sand: '#F4F1EC', paper: '#FBFAF7', ink: '#1E1C1A', stone: '#6E675F', sage: '#5F7875', sagelight: '#9DB3AF', line: '#E2DDD5' },
+  fontFamily: { display: ['"Cormorant Garamond"', 'serif'], sans: ['Inter', 'sans-serif'] },
+}}}
+</script>
+<style>
+  body { font-family: Inter, sans-serif; line-height: 1.7; }
+  .display { font-family: "Cormorant Garamond", serif; letter-spacing: -0.02em; line-height: 1.05; }
+  .lift { transition: transform .5s cubic-bezier(.2,.8,.2,1), opacity .3s; }
+  .card:hover .lift { transform: scale(1.03); }
+  .link { background: linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat; transition: background-size .35s cubic-bezier(.2,.8,.2,1); }
+  .link:hover, .link:focus-visible { background-size: 100% 1px; }
+  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid #5F7875; outline-offset: 3px; }
+  .ph { outline: 1px dashed #5F7875; outline-offset: -1px; }
+  .tag { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
+</style>
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "HomeAndConstructionBusiness", "name": "Banio A/S",
+  "url": "https://www.banio.dk/", "telephone": "+4536304362", "email": "info@banio.dk", "foundingDate": "1989",
+  "address": { "@type": "PostalAddress", "streetAddress": "Læhegnet 75", "postalCode": "2620", "addressLocality": "Albertslund", "addressCountry": "DK" } }
+</script>
+</head>
+<body class="bg-paper text-ink antialiased">
+
+<!-- menuen bliver hængende: gennemsigtig over hero, lys bjælke når man scroller -->
+<style>
+  #hdr { transition: background-color .3s, color .3s, box-shadow .3s; }
+  #hdr.solid { background: rgba(251,250,247,.96); color: #1E1C1A; box-shadow: 0 1px 0 #E2DDD5, 0 8px 24px -16px rgba(30,28,26,.25); }
+  #hdr.solid .hdr-info { display: none; }
+  #hdr.solid .hdr-logo { filter: invert(1); }
+  #hdr.solid nav { padding-top: .9rem; padding-bottom: .9rem; }
+</style>
+<header id="hdr" class="fixed inset-x-0 top-0 z-20 text-white">
+  <nav class="mx-auto grid max-w-7xl grid-cols-3 items-center px-5 py-5 transition-[padding] duration-300 md:px-10" aria-label="Hovedmenu">
+    <button id="menuBtn" class="group flex items-center gap-3 justify-self-start text-sm" aria-expanded="false" aria-controls="menu">
+      <span class="grid gap-[5px]" aria-hidden="true"><span class="block h-px w-6 bg-current transition-transform group-hover:translate-x-1"></span><span class="block h-px w-4 bg-current"></span></span>
+      <span class="tag">Menu</span>
+    </button>
+    <a href="#" class="justify-self-center" aria-label="Banio forside"><img src="banio-logo-white.png" alt="Banio" width="142" height="28" class="hdr-logo"/></a>
+    <a href="#kontakt" class="tag link justify-self-end py-1">Kontakt</a>
+  </nav>
+</header>
+<script>
+  (() => { const h = document.getElementById('hdr'); const f = () => h.classList.toggle('solid', scrollY > innerHeight * 0.6); addEventListener('scroll', f, { passive: true }); f(); })();
+</script>
+
+<!-- fuldskærmsmenu: store links, billedet skifter med fade -->
+<style>
+  /* mørk marmor i baggrunden, næsten skjult */
+  #menu { background: #141311; }
+  #menu::before { content: ""; position: absolute; inset: 0; background: url(plade-sahara-dark.webp) center / cover; opacity: .14; transform: rotate(180deg); }
+  /* italiensk undertitel: dukker op i guld ved hover */
+  .it { white-space: nowrap; font-family: "Cormorant Garamond", serif; font-style: italic; color: #B99A6E; opacity: 0; transform: translateX(-6px); transition: opacity .35s, transform .45s cubic-bezier(.2,.8,.2,1); }
+  .menu-link:hover .it, .menu-link:focus-visible .it, .menu-link.on .it { opacity: 1; transform: none; }
+  .menu-link.on .name { color: #fff; }
+</style>
+<div id="menu" class="pointer-events-none fixed inset-0 z-30 text-white opacity-0 transition-opacity duration-300" aria-hidden="true">
+  <div class="relative mx-auto flex h-full max-w-7xl flex-col px-5 md:px-10">
+    <div class="grid grid-cols-3 items-center py-5">
+      <button id="menuClose" class="tag justify-self-start text-sm">Luk</button>
+      <img src="banio-logo-white.png" alt="Banio" width="142" height="28" class="justify-self-center"/>
+      <span></span>
+    </div>
+    <div class="grid flex-1 items-center gap-10 md:grid-cols-[1fr_auto]">
+      <ol class="grid gap-1" id="menuList">
+        <li><a href="#bordplader" data-img="kokken-o.webp" data-cap="Calacatta Bernini · Atlas Plan" class="menu-link on flex items-baseline gap-5 py-2"><span class="tag text-white/40">01</span><span class="name display text-4xl text-white/55 transition-colors md:text-6xl">Køkkenbordplader</span><span class="it hidden text-2xl md:inline" lang="it">piani cucina</span></a></li>
+        <li><a href="#vask" data-img="vask-banio-12.webp" data-cap="Fra Banio" class="menu-link flex items-baseline gap-5 py-2"><span class="tag text-white/40">02</span><span class="name display text-4xl text-white/55 transition-colors md:text-6xl">Køkkenvask</span><span class="it hidden text-2xl md:inline" lang="it">lavelli</span></a></li>
+        <li><a href="#spisebord" data-img="spisebord.webp" data-cap="Travertino Pearl · Atlas Plan" class="menu-link flex items-baseline gap-5 py-2"><span class="tag text-white/40">03</span><span class="name display text-4xl text-white/55 transition-colors md:text-6xl">Spiseborde</span><span class="it hidden text-2xl md:inline" lang="it">tavoli</span></a></li>
+        <li><a href="#fliser" data-img="look-marmor.webp" data-cap="Natural Roots · Atlas Plan" class="menu-link flex items-baseline gap-5 py-2"><span class="tag text-white/40">04</span><span class="name display text-4xl text-white/55 transition-colors md:text-6xl">Fliser</span><span class="it hidden text-2xl md:inline" lang="it">piastrelle</span></a></li>
+        <li><a href="#referencer" data-img="banio-ref-karlslunde.webp" data-cap="Villa i Karlslunde · Banio" class="menu-link flex items-baseline gap-5 py-2"><span class="tag text-white/40">05</span><span class="name display text-4xl text-white/55 transition-colors md:text-6xl">Referencer</span><span class="it hidden text-2xl md:inline" lang="it">progetti</span></a></li>
+        <li><a href="#om" data-img="banio-showroom-2-hoej.webp" data-cap="Showroomet i Albertslund" class="menu-link flex items-baseline gap-5 py-2"><span class="tag text-white/40">06</span><span class="name display text-4xl text-white/55 transition-colors md:text-6xl">Om Banio</span><span class="it hidden text-2xl md:inline" lang="it">chi siamo</span></a></li>
+      </ol>
+      <!-- billedet har en stående plades proportioner (1620 × 3240) -->
+      <div class="relative hidden aspect-[1/2] h-[66vh] justify-self-end overflow-hidden md:block">
+        <img id="menuImg" src="kokken-o.webp" alt="" class="absolute inset-0 h-full w-full object-cover transition-opacity duration-300"/>
+      </div>
+    </div>
+    <div class="tag flex flex-wrap justify-between gap-3 border-t border-white/15 py-6 text-[10px] text-white/60">
+      <span>Læhegnet 75, 2620 Albertslund</span><span>Tor–fre 9.00–17.30 · Lør–søn 10.00–15.00</span><span>info@banio.dk · 36 30 43 62</span>
+    </div>
+  </div>
+</div>
+<script>
+  const m = document.getElementById('menu'), b = document.getElementById('menuBtn'), img = document.getElementById('menuImg');
+  const setOpen = o => { m.classList.toggle('opacity-0', !o); m.classList.toggle('pointer-events-none', !o); m.setAttribute('aria-hidden', !o); b.setAttribute('aria-expanded', o); };
+  b.onclick = () => setOpen(true);
+  document.getElementById('menuClose').onclick = () => setOpen(false);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setOpen(false); });
+  document.querySelectorAll('.menu-link').forEach(a => {
+    const show = () => {
+      document.querySelectorAll('.menu-link').forEach(x => x.classList.toggle('on', x === a));
+      if (img.getAttribute('src') === a.dataset.img) return;
+      img.style.opacity = 0; setTimeout(() => { img.src = a.dataset.img; img.style.opacity = 1; }, 180);
+    };
+    a.addEventListener('mouseenter', show); a.addEventListener('focus', show); a.addEventListener('click', () => setOpen(false));
+  });
+  if (location.hash === '#menu') setOpen(true);
+</script>
+
+<main>
+  <!-- HERO: rolig crossfade mellem 5 billeder (kun opacity), lille H1, billedtekst pr. billede som hos Atlas Plan -->
+  <section class="relative h-[92vh] min-h-[560px] overflow-hidden bg-ink" aria-roledescription="billedserie" aria-label="Udvalgte bordplader">
+    <div id="slides">
+      <figure class="slide absolute inset-0 opacity-100 transition-opacity duration-[1400ms] ease-in-out" data-cap="Køkkenø · Taj Mahal White">
+        <img src="hero-kokken.webp" alt="Køkkenø med bordplade i lys keramik" width="1920" height="1200" class="h-full w-full object-cover"/>
+      </figure>
+      <figure class="slide absolute inset-0 opacity-0 transition-opacity duration-[1400ms] ease-in-out" data-cap="Køkkenbordplade · Calacatta Bernini">
+        <img src="kokken-o.webp" alt="Køkkenø i Calacatta Bernini" width="1440" height="900" class="h-full w-full object-cover"/>
+      </figure>
+      <figure class="slide absolute inset-0 opacity-0 transition-opacity duration-[1400ms] ease-in-out" data-cap="Spisebord · Travertino Pearl">
+        <img src="spisebord.webp" alt="Spisebord med keramisk bordplade i travertin-look" width="1440" height="900" class="h-full w-full object-cover"/>
+      </figure>
+      <figure class="slide absolute inset-0 opacity-0 transition-opacity duration-[1400ms] ease-in-out" data-cap="Køkkenøer · Sahara Dark">
+        <img src="ref-3.webp" alt="Åbent køkken med to øer i sort marmorlook" width="1920" height="1080" class="h-full w-full object-cover"/>
+      </figure>
+      <figure class="slide absolute inset-0 opacity-0 transition-opacity duration-[1400ms] ease-in-out" data-cap="Køkkenø · Boost Hux Moka">
+        <img src="ref-1.webp" alt="Køkkenø i betonlook" width="1440" height="900" class="h-full w-full object-cover"/>
+      </figure>
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-black/35"></div>
+
+    <div class="relative mx-auto flex h-full max-w-7xl flex-col justify-end px-5 pb-10 md:px-10 md:pb-12">
+      <div class="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+        <div class="max-w-3xl">
+          <h1 class="display whitespace-nowrap text-[clamp(1.35rem,6.4vw,2rem)] font-semibold text-white [text-shadow:0_2px_18px_rgba(0,0,0,.35)] md:text-5xl">Keramiske bordplader på mål</h1>
+          <p class="mt-3 text-base font-medium text-white [text-shadow:0_1px_10px_rgba(0,0,0,.4)]">Skåret i vores eget skæreri siden 1989.</p>
+          <a href="#kontakt" class="group mt-7 inline-flex items-center gap-3 border-2 border-white px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-ink active:opacity-80">Send en forespørgsel <span class="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></a>
+        </div>
+        <!-- billedtekst + fremdrift -->
+        <div class="w-full md:w-96">
+          <a href="#bordplader" class="group flex items-end justify-between gap-6 text-white">
+            <span id="cap" class="min-w-0 transition-opacity duration-500">
+              <span id="capType" class="tag block text-[11px] font-semibold text-white/85">Køkkenø</span>
+              <span id="capName" class="display mt-1 block truncate text-3xl font-semibold [text-shadow:0_1px_10px_rgba(0,0,0,.4)]">Taj Mahal White</span>
+            </span>
+            <span class="tag shrink-0 whitespace-nowrap pb-1 font-semibold text-white transition-transform group-hover:translate-x-1">Se mere →</span>
+          </a>
+          <div class="mt-4 grid grid-cols-5 gap-2" id="dots">
+            <button class="dot h-6" aria-label="Billede 1"><span class="block h-[3px] w-full bg-white/45"><span class="bar block h-[3px] w-full origin-left scale-x-0 bg-white"></span></span></button>
+            <button class="dot h-6" aria-label="Billede 2"><span class="block h-[3px] w-full bg-white/45"><span class="bar block h-[3px] w-full origin-left scale-x-0 bg-white"></span></span></button>
+            <button class="dot h-6" aria-label="Billede 3"><span class="block h-[3px] w-full bg-white/45"><span class="bar block h-[3px] w-full origin-left scale-x-0 bg-white"></span></span></button>
+            <button class="dot h-6" aria-label="Billede 4"><span class="block h-[3px] w-full bg-white/45"><span class="bar block h-[3px] w-full origin-left scale-x-0 bg-white"></span></span></button>
+            <button class="dot h-6" aria-label="Billede 5"><span class="block h-[3px] w-full bg-white/45"><span class="bar block h-[3px] w-full origin-left scale-x-0 bg-white"></span></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    (() => {
+      const slides = [...document.querySelectorAll('.slide')], bars = [...document.querySelectorAll('.bar')], cap = document.getElementById('cap');
+      const still = matchMedia('(prefers-reduced-motion: reduce)').matches, MS = 6000;
+      let i = 0, t;
+      const go = n => {
+        slides[i].classList.replace('opacity-100', 'opacity-0');
+        bars.forEach((b, k) => { b.style.transition = 'none'; b.style.transform = k < n ? 'scaleX(1)' : 'scaleX(0)'; });
+        i = n; slides[i].classList.replace('opacity-0', 'opacity-100');
+        const [type, name] = slides[i].dataset.cap.split(' · ');
+        cap.style.opacity = 0; setTimeout(() => { capType.textContent = type; capName.textContent = name; cap.style.opacity = 1; }, 300);
+        requestAnimationFrame(() => requestAnimationFrame(() => { bars[i].style.transition = still ? 'none' : `transform ${MS}ms linear`; bars[i].style.transform = 'scaleX(1)'; }));
+        clearTimeout(t); if (!still) t = setTimeout(() => go((i + 1) % slides.length), MS);
+      };
+      document.querySelectorAll('.dot').forEach((d, k) => d.onclick = () => go(k));
+      go(0);
+    })();
+  </script>
+
+
+
+  <!-- ANMELDELSESBÅND under hero: bånd i fuld bredde, score fast i venstre side ovenpå -->
+  <section class="relative bg-sage" aria-label="Anmeldelser på Google">
+    <a href="https://www.google.com/maps/place/BANIO+A%2FS/@55.6616152,12.3699309,17z" class="block">
+      <div class="z-10 flex items-center gap-4 border-b border-white/15 bg-sage px-5 py-3 md:absolute md:inset-y-0 md:left-0 md:border-b-0 md:py-0 md:pr-40 md:pl-10 md:[background:linear-gradient(90deg,#5F7875_calc(100%-4rem),rgba(95,120,117,0))]">
+        <span class="display text-3xl leading-none text-white [font-variant-numeric:lining-nums]">4,5</span>
+        <span class="leading-5"><span class="block tracking-[.15em] text-white" aria-hidden="true">★★★★★</span><span class="tag whitespace-nowrap text-[10px] text-white/75">42 anmeldelser på Google</span></span>
+        <span class="sr-only">4,5 ud af 5 stjerner.</span>
+      </div>
+      <div class="marquee overflow-hidden py-4 md:py-4 md:[mask-image:linear-gradient(90deg,#000_92%,transparent)]">
+        <ul class="marquee-track items-center"><li class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Super sted! … Klar anbefaling herfra.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Niclas</span></li><li class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Super og fremragende flise butik. Bedste service jeg har fået.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Nabil</span></li><li class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Virkelig god betjening og et stort udvalg af flotte fliser.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Lykke</span></li><li class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“God rådgivning, flink personale, og levering til tid.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Phil</span></li><li class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Rigtig god vejledning og stort udvalg af flotte fliser.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Andre</span></li><li class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Flinke mennesker der giver en super service omkring deres flotte produkter.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Bjørn</span></li><li class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“God service og meget lækre klinker og fliser.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Tina</span></li><li class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Fantastisk god service! Fandt de lækreste fliser :)”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Emil</span></li><li class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Stort udvalg og super service.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Heine</span></li><li aria-hidden="true" class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Super sted! … Klar anbefaling herfra.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Niclas</span></li><li aria-hidden="true" class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Super og fremragende flise butik. Bedste service jeg har fået.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Nabil</span></li><li aria-hidden="true" class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Virkelig god betjening og et stort udvalg af flotte fliser.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Lykke</span></li><li aria-hidden="true" class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“God rådgivning, flink personale, og levering til tid.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Phil</span></li><li aria-hidden="true" class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Rigtig god vejledning og stort udvalg af flotte fliser.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Andre</span></li><li aria-hidden="true" class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Flinke mennesker der giver en super service omkring deres flotte produkter.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Bjørn</span></li><li aria-hidden="true" class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“God service og meget lækre klinker og fliser.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Tina</span></li><li aria-hidden="true" class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Fantastisk god service! Fandt de lækreste fliser :)”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Emil</span></li><li aria-hidden="true" class="flex shrink-0 items-baseline gap-3 px-10"><span class="display text-lg text-white md:text-xl">“Stort udvalg og super service.”</span><span class="tag whitespace-nowrap text-[10px] text-white/70">Heine</span></li></ul>
+      </div>
+    </a>
+  </section>
+
+  <!-- DET LAVER VI: tre ens kort + fliser lidt smallere. Ingen effekter ud over link-understregning -->
+  <section class="mx-auto max-w-7xl px-5 py-20 md:px-10 md:py-28" aria-labelledby="fokus">
+    <div class="mb-12 flex items-end justify-between gap-6">
+      <div><p class="tag text-sage">Lavet på mål</p><h2 id="fokus" class="display mt-3 text-4xl md:text-5xl">Det laver vi</h2></div>
+    </div>
+    <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-[1fr_1fr_1fr_.75fr] md:gap-6">
+      <a id="bordplader" href="#" class="group block">
+        <div class="aspect-[4/5] overflow-hidden bg-sand md:aspect-auto md:h-[440px]"><img src="kokken-o.webp" alt="Køkkenø med keramisk bordplade i marmorlook" width="1440" height="900" loading="lazy" class="h-full w-full object-cover"/></div>
+        <h3 class="display mt-5 text-3xl">Køkkenbordplader</h3>
+        <p class="mt-1 text-sm text-stone">Skåret på mål i 12 mm keramik med look af marmor, sten, beton, træ eller metal.</p>
+        <span class="link mt-3 inline-block text-xs text-ink transition-colors group-hover:text-sage">Se bordplader</span>
+      </a>
+      <a id="vask" href="#" class="group block">
+        <div class="aspect-[4/5] overflow-hidden bg-sand md:aspect-auto md:h-[440px]"><img src="vask-banio-45.webp" alt="Køkkenvask i keramisk marmorlook med riflet afløbsbakke, skåret i samme plade som bordpladen" width="602" height="753" loading="lazy" class="h-full w-full object-cover"/></div>
+        <h3 class="display mt-5 text-3xl">Køkkenvask</h3>
+        <p class="mt-1 text-sm text-stone">Edgeless-modellen beskytter bordpladen.</p>
+        <span class="link mt-3 inline-block text-xs text-ink transition-colors group-hover:text-sage">Se køkkenvaske</span>
+      </a>
+      <a id="spisebord" href="#" class="group block">
+        <div class="aspect-[4/5] overflow-hidden bg-sand md:aspect-auto md:h-[440px]"><img src="spisebord.webp" alt="Spisebord med keramisk bordplade i travertinlook" width="1440" height="900" loading="lazy" class="h-full w-full object-cover"/></div>
+        <h3 class="display mt-5 text-3xl">Spiseborde</h3>
+        <p class="mt-1 text-sm text-stone">Bordplade i keramik efter dine mål.</p>
+        <span class="link mt-3 inline-block text-xs text-ink transition-colors group-hover:text-sage">Se spiseborde</span>
+      </a>
+      <a id="fliser-kort" href="#fliser" class="group block">
+        <div class="aspect-[4/5] overflow-hidden bg-sand md:aspect-auto md:h-[440px]"><img src="banio-fliser-stak.webp" alt="Fliser i stenlook i Banios showroom" width="1600" height="1067" loading="lazy" class="h-full w-full object-cover"/></div>
+        <h3 class="display mt-5 text-3xl">Fliser</h3>
+        <p class="mt-1 text-sm text-stone">Et kort udvalg fra vores italienske leverandører.</p>
+        <span class="link mt-3 inline-block text-xs text-ink transition-colors group-hover:text-sage">Se fliser</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- SKÆREPLAN: Banios røde tråd. Én hel plade, delt op i det, Banio laver af den -->
+  <section class="bg-sand" aria-labelledby="skaereri">
+    <div class="mx-auto max-w-7xl px-5 py-20 md:px-10 md:py-28">
+      <div class="grid gap-6 md:grid-cols-12 md:items-end">
+        <div class="md:col-span-7">
+          <p class="tag text-sage">Eget skæreri</p>
+          <h2 id="skaereri" class="display mt-3 text-4xl md:text-6xl">Én plade, skåret til dit køkken</h2>
+        </div>
+        <p class="max-w-md text-stone md:col-span-5">Store keramiske plader kræver særligt udstyr at arbejde med, fordi materialet er ekstremt stærkt. Derfor gør vi det selv i vores eget skæreri.</p>
+      </div>
+
+      <figure class="mt-12 md:mt-16">
+        <div class="mb-3 flex items-center gap-3 text-stone md:mr-9"><span class="h-3 w-px bg-stone/60"></span><span class="h-px flex-1 bg-stone/40"></span><span class="tag">3240 mm</span><span class="h-px flex-1 bg-stone/40"></span><span class="h-3 w-px bg-stone/60"></span></div>
+        <div class="flex gap-3">
+          <div class="relative w-full">
+            <img src="plade-calacatta-oro.webp" alt="Hel keramisk plade i Calacatta Oro, 3240 × 1620 mm" width="1920" height="960" loading="lazy" class="block aspect-[2/1] w-full object-cover"/>
+            <svg class="absolute inset-0 h-full w-full" viewBox="0 0 3240 1620" preserveAspectRatio="none" aria-hidden="true">
+              <g fill="none" stroke="#5F7875" stroke-width="4" stroke-dasharray="18 12">
+                <line x1="0" y1="650" x2="3240" y2="650"/><line x1="2800" y1="0" x2="2800" y2="650"/><line x1="2000" y1="650" x2="2000" y2="1620"/>
+              </g>
+              <rect x="1900" y="160" width="620" height="340" rx="40" fill="rgba(95,120,117,.10)" stroke="#5F7875" stroke-width="4"/>
+              <rect x="2800" y="0" width="440" height="650" fill="#5F7875" opacity=".18"/>
+            </svg>
+            <div class="tag pointer-events-none absolute inset-0 text-[9px] text-ink md:text-[10px]">
+              <span class="absolute left-[3%] top-[8%] bg-paper/90 px-2 py-1">Køkkenbordplade · 2800 × 650</span>
+              <span class="absolute left-[59.5%] top-[12%] hidden bg-paper/90 px-2 py-1 md:inline">Udskæring til vask</span>
+              <span class="absolute left-[87.5%] top-[8%] hidden bg-paper/90 px-2 py-1 md:inline">Rest</span>
+              <span class="absolute left-[3%] top-[46%] bg-paper/90 px-2 py-1">Spisebord · 2000 × 970</span>
+              <span class="absolute left-[64.5%] top-[46%] bg-paper/90 px-2 py-1">Bagplade · 1240 × 970</span>
+            </div>
+          </div>
+          <div class="hidden w-6 flex-col items-center text-stone md:flex"><span class="h-px w-3 bg-stone/60"></span><span class="w-px flex-1 bg-stone/40"></span><span class="tag my-2 [writing-mode:vertical-rl]">1620 mm</span><span class="w-px flex-1 bg-stone/40"></span><span class="h-px w-3 bg-stone/60"></span></div>
+        </div>
+        <figcaption class="tag mt-4 flex flex-wrap justify-between gap-2 text-stone">
+          <span>Atlas Plan · Calacatta Oro · 12 mm</span>
+        </figcaption>
+      </figure>
+
+      <!-- FRA PLADE TIL MONTERING: lodret liste ved siden af billedet (Pazzi-mønster), fakta fra banio.dk -->
+      <div class="mt-20 grid gap-10 md:grid-cols-12 md:gap-16">
+        <figure class="md:col-span-5">
+          <img src="banio-kant-1.webp" alt="Geringsskåret hjørne på en keramisk bordplade i Banios showroom" width="1600" height="1600" loading="lazy" class="aspect-[4/5] w-full object-cover"/>
+          <figcaption class="tag mt-3 text-stone">Skåret og samlet hos Banio</figcaption>
+        </figure>
+        <div class="flex flex-col justify-center md:col-span-7">
+          <h3 class="display text-3xl md:text-4xl">Fra plade til færdig bordplade</h3>
+          <ol class="mt-8 grid border-t border-line">
+            <li class="grid grid-cols-[4.5rem_1fr] items-center gap-4 border-b border-line py-6"><span class="display text-5xl leading-none text-sage [font-variant-numeric:lining-nums]">01</span><div><p class="font-medium">Du vælger plade og look</p><p class="mt-1 text-sm text-stone">I showroomet kan du se pladerne i fuld størrelse.</p></div></li>
+            <li class="grid grid-cols-[4.5rem_1fr] items-center gap-4 border-b border-line py-6"><span class="display text-5xl leading-none text-sage [font-variant-numeric:lining-nums]">02</span><div><p class="font-medium">Vi måler op</p><p class="mt-1 text-sm text-stone">Så bordpladen passer præcist til dit rum.</p></div></li>
+            <li class="grid grid-cols-[4.5rem_1fr] items-center gap-4 border-b border-line py-6"><span class="display text-5xl leading-none text-sage [font-variant-numeric:lining-nums]">03</span><div><p class="font-medium">Vi skærer i eget skæreri</p><p class="mt-1 text-sm text-stone">Store keramiske plader kræver særligt udstyr. Det har vi selv.</p></div></li>
+            <li class="grid grid-cols-[4.5rem_1fr] items-center gap-4 border-b border-line py-6"><span class="display text-5xl leading-none text-sage [font-variant-numeric:lining-nums]">04</span><div><p class="font-medium">Vi monterer</p><p class="mt-1 text-sm text-stone">Vi monterer bordpladen hos dig, og leveringstiden er kort.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLISER: looks som indgang (Atlas Plan-mønster), rå plader i stående format. Banios egne kategorisider -->
+  <section id="fliser" class="border-t border-line bg-paper" aria-labelledby="fl">
+    <div class="mx-auto max-w-7xl px-5 py-20 md:px-10 md:py-28">
+      <div class="mb-12 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+        <div>
+          <p class="tag text-sage">Fliser fra Italien</p>
+          <h2 id="fl" class="display mt-3 text-4xl md:text-5xl">Vælg dit look</h2>
+        </div>
+        <p class="max-w-sm text-sm text-stone">Bordplader og fliser i italiensk keramik. Resten af udvalget kan du se i showroomet.</p>
+      </div>
+      <ul class="-mx-5 flex snap-x scroll-px-5 gap-4 overflow-x-auto px-5 pb-2 md:mx-0 md:grid md:grid-cols-5 md:gap-6 md:overflow-visible md:px-0">
+        <li class="w-[44%] shrink-0 snap-start md:w-auto"><a href="/fliser/marmor/" class="card group block"><div class="aspect-[1/2] overflow-hidden bg-sand"><img src="look-marmor.webp" alt="Keramisk plade i marmorlook" width="720" height="1440" loading="lazy" class="lift h-full w-full object-cover"/></div><h3 class="tag mt-5 text-sm text-ink">Marmorlook</h3><span class="link mt-2 inline-block text-xs text-stone transition-colors group-hover:text-sage">Se udvalget</span></a></li>
+        <li class="w-[44%] shrink-0 snap-start md:w-auto"><a href="/fliser/sten/" class="card group block"><div class="aspect-[1/2] overflow-hidden bg-sand"><img src="look-sten.webp" alt="Keramisk plade i stenlook" width="720" height="1440" loading="lazy" class="lift h-full w-full object-cover"/></div><h3 class="tag mt-5 text-sm text-ink">Stenlook</h3><span class="link mt-2 inline-block text-xs text-stone transition-colors group-hover:text-sage">Se udvalget</span></a></li>
+        <li class="w-[44%] shrink-0 snap-start md:w-auto"><a href="/fliser/beton/" class="card group block"><div class="aspect-[1/2] overflow-hidden bg-sand"><img src="look-beton.webp" alt="Keramisk plade i betonlook" width="720" height="1440" loading="lazy" class="lift h-full w-full object-cover"/></div><h3 class="tag mt-5 text-sm text-ink">Betonlook</h3><span class="link mt-2 inline-block text-xs text-stone transition-colors group-hover:text-sage">Se udvalget</span></a></li>
+        <li class="w-[44%] shrink-0 snap-start md:w-auto"><a href="/fliser/trae/" class="card group block"><div class="aspect-[1/2] overflow-hidden bg-sand"><img src="look-trae.webp" alt="Keramisk plade i trælook" width="720" height="1440" loading="lazy" class="lift h-full w-full object-cover"/></div><h3 class="tag mt-5 text-sm text-ink">Trælook</h3><span class="link mt-2 inline-block text-xs text-stone transition-colors group-hover:text-sage">Se udvalget</span></a></li>
+        <li class="w-[44%] shrink-0 snap-start md:w-auto"><a href="/fliser/metal/" class="card group block"><div class="aspect-[1/2] overflow-hidden bg-sand"><img src="look-metal.webp" alt="Keramisk plade i metallook" width="720" height="1440" loading="lazy" class="lift h-full w-full object-cover"/></div><h3 class="tag mt-5 text-sm text-ink">Metallook</h3><span class="link mt-2 inline-block text-xs text-stone transition-colors group-hover:text-sage">Se udvalget</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- REFERENCER: hver case med flere billeder + specifikation (Atlas Plan/Van Den Weghe-mønster) -->
+  <section id="referencer" class="mx-auto max-w-7xl px-5 py-20 md:px-10 md:py-28" aria-labelledby="ref">
+    <div class="mb-12 flex items-end justify-between gap-6">
+      <div><p class="tag text-sage">Udført af Banio</p><h2 id="ref" class="display mt-3 text-4xl md:text-5xl">Referencer</h2></div>
+      <a href="#" class="link text-sm">Alle referencer</a>
+    </div>
+    <div class="grid gap-14 md:grid-cols-2 md:gap-10">
+      <a href="#" class="group block">
+        <div class="aspect-[3/2] overflow-hidden bg-sand"><img src="banio-ref-karlslunde.webp" alt="Åbent køkken med fliser på gulv og køkkenø i en villa i Karlslunde" width="1024" height="683" loading="lazy" class="h-full w-full object-cover"/></div>
+        <div class="mt-2 grid grid-cols-2 gap-2">
+          <div class="aspect-[3/2] overflow-hidden bg-sand"><img src="banio-ref-karlslunde-3.webp" alt="Spisestue med fliser på gulvet i villa i Karlslunde" width="1024" height="683" loading="lazy" class="h-full w-full object-cover"/></div>
+          <div class="aspect-[3/2] overflow-hidden bg-sand"><img src="banio-ref-karlslunde-2.webp" alt="Pejs beklædt med fliser i villa i Karlslunde" width="1024" height="683" loading="lazy" class="h-full w-full object-cover"/></div>
+        </div>
+        <div class="mt-5 flex items-baseline justify-between gap-4"><h3 class="display text-3xl">Villa i Karlslunde</h3><span class="link tag text-xs transition-colors group-hover:text-sage">Se opgaven</span></div>
+        <dl class="mt-3 grid grid-cols-3 gap-4 border-t border-line pt-3 text-sm">
+          <div><dt class="tag text-[10px] text-stone">Opgave</dt><dd class="mt-1">Privat villa</dd></div>
+          <div><dt class="tag text-[10px] text-stone">Udført</dt><dd class="mt-1">Fliser på gulv, køkkenø og pejs</dd></div>
+          <div><dt class="tag text-[10px] text-stone">Sted</dt><dd class="mt-1">Karlslunde</dd></div>
+        </dl>
+      </a>
+      <a href="#" class="group block">
+        <div class="aspect-[3/2] overflow-hidden bg-sand"><img src="banio-ref-kokkedal.webp" alt="Salon på Kokkedal Slot med lyse gulvfliser i marmorlook" width="1024" height="683" loading="lazy" class="h-full w-full object-cover"/></div>
+        <div class="mt-2 grid grid-cols-2 gap-2">
+          <div class="aspect-[3/2] overflow-hidden bg-sand"><img src="banio-ref-kokkedal-2.webp" alt="Gang på Kokkedal Slot med lyse gulvfliser" width="1024" height="683" loading="lazy" class="h-full w-full object-cover"/></div>
+          <div class="aspect-[3/2] overflow-hidden bg-sand"><img src="banio-ref-kokkedal-3.webp" alt="Badeværelse på Kokkedal Slot med lyse fliser" width="1024" height="683" loading="lazy" class="h-full w-full object-cover"/></div>
+        </div>
+        <div class="mt-5 flex items-baseline justify-between gap-4"><h3 class="display text-3xl">Kokkedal Slot</h3><span class="link tag text-xs transition-colors group-hover:text-sage">Se opgaven</span></div>
+        <dl class="mt-3 grid grid-cols-3 gap-4 border-t border-line pt-3 text-sm">
+          <div><dt class="tag text-[10px] text-stone">Opgave</dt><dd class="mt-1">Slot</dd></div>
+          <div><dt class="tag text-[10px] text-stone">Udført</dt><dd class="mt-1">Gulvfliser i marmorlook</dd></div>
+          <div><dt class="tag text-[10px] text-stone">Sted</dt><dd class="mt-1">Kokkedal</dd></div>
+        </dl>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Stil til anmeldelsesbåndet under hero (ægte Google-anmeldelser hentet 11/11, ordret) -->
+  <style>
+    .marquee { mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); }
+    .marquee-track { display: flex; width: max-content; animation: banio-marquee 70s linear infinite; }
+    .marquee:hover .marquee-track, .marquee:focus-within .marquee-track { animation-play-state: paused; }
+    @keyframes banio-marquee { to { transform: translateX(-50%); } }
+    @media (prefers-reduced-motion: reduce) { .marquee { overflow-x: auto; mask-image: none; } .marquee-track { animation: none; } }
+  </style>
+
+
+  <!-- OM BANIO -->
+  <section id="om" class="bg-sage text-white" aria-labelledby="omh">
+    <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 md:grid-cols-12 md:gap-16 md:px-10 md:py-28">
+      <figure class="md:col-span-7">
+        <img src="banio-showroom-2.webp" alt="Overblik over Banios showroom i Albertslund" width="1600" height="1067" loading="lazy" class="aspect-[4/3] w-full object-cover"/>
+        <figcaption class="tag mt-3 text-white/75">Showroomet i Albertslund · 1.000 m²</figcaption>
+      </figure>
+      <div class="md:col-span-5">
+        <p class="tag text-white/80">Om Banio</p>
+        <h2 id="omh" class="display mt-3 text-4xl md:text-5xl">Italiensk design siden 1989</h2>
+        <p class="mt-6 text-white/90">Vi har en stor passion for italiensk design og har brugt mange år på at finde de rigtige leverandører i Italien. I dag arbejder vi med Atlas Plan, Florim, Fondovalle og Ceramica Sant'Agostino. Vi hjælper både private og erhverv.</p>
+        <a href="#" class="link tag mt-10 inline-block text-white">Læs mere om Banio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT: forespørgsel tilpasset et skæreri (hvad, mål, tegning). Adresse/mail står i footeren -->
+  <style>
+    .chip input { position: absolute; opacity: 0; pointer-events: none; }
+    .chip span { display: inline-block; border: 1px solid #E2DDD5; padding: .55rem 1rem; font-size: .875rem; transition: background-color .2s, color .2s, border-color .2s; cursor: pointer; }
+    .chip:hover span { border-color: #5F7875; }
+    .chip input:checked + span { background: #5F7875; border-color: #5F7875; color: #FBFAF7; }
+    .chip input:focus-visible + span { outline: 2px solid #5F7875; outline-offset: 2px; }
+    .field { border-bottom: 1px solid #E2DDD5; background: transparent; padding: .6rem 0; width: 100%; }
+    .field:focus { outline: none; border-color: #5F7875; }
+    .field::placeholder { color: #A39C93; }
+  </style>
+  <!-- FORESPØRGSEL: lys baggrund mellem grøn (Om) og mørk footer, normal bredde, formular uden boks -->
+  <section id="kontakt" class="relative bg-paper bg-cover bg-center" style="background-image:linear-gradient(rgba(251,250,247,.55),rgba(251,250,247,.55)),url(plade-calacatta-extra.webp)" aria-labelledby="kh">
+    <div class="relative mx-auto grid max-w-7xl gap-12 px-5 py-20 md:grid-cols-12 md:gap-16 md:px-10 md:py-28">
+      <div class="md:col-span-5">
+        <p class="tag text-sage">Forespørgsel</p>
+        <h2 id="kh" class="display mt-3 text-4xl text-ink md:text-6xl">Fortæl os om dit projekt</h2>
+        <p class="mt-5 max-w-md text-stone">Send os dine mål og ønsker, så vender vi tilbage.</p>
+        <p class="mt-10 text-sm text-stone">Eller ring på <a class="link text-ink" href="tel:+4536304362">36 30 43 62</a></p>
+      </div>
+      <form class="grid gap-8 md:col-span-7" onsubmit="return false">
+        <fieldset>
+          <legend class="text-sm font-medium text-ink">Hvad skal laves?</legend>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <label class="chip relative"><input type="checkbox" name="hvad" value="bordplade"/><span>Køkkenbordplade</span></label>
+            <label class="chip relative"><input type="checkbox" name="hvad" value="vask"/><span>Køkkenvask</span></label>
+            <label class="chip relative"><input type="checkbox" name="hvad" value="spisebord"/><span>Spisebord</span></label>
+            <label class="chip relative"><input type="checkbox" name="hvad" value="fliser"/><span>Fliser</span></label>
+          </div>
+        </fieldset>
+        <div class="grid gap-8 sm:grid-cols-2">
+          <label class="grid gap-1 text-sm font-medium text-ink">Navn<input class="field font-normal" autocomplete="name"/></label>
+          <label class="grid gap-1 text-sm font-medium text-ink">Telefon eller mail<input class="field font-normal" autocomplete="email"/></label>
+        </div>
+        <label class="grid gap-1 text-sm font-medium text-ink">Mål og ønsker<textarea rows="3" class="field font-normal" placeholder="Fx en køkkenø på ca. 280 × 100 cm i marmorlook"></textarea></label>
+        <label class="flex cursor-pointer items-center gap-3 text-sm text-stone">
+          <span aria-hidden="true" class="grid h-9 w-9 place-items-center border border-line text-ink">+</span>
+          <span><span class="link text-ink">Vedhæft tegning eller billede</span> (valgfrit)</span>
+          <input type="file" class="sr-only" accept="image/*,.pdf"/>
+        </label>
+        <button class="group inline-flex items-center justify-self-start gap-3 bg-sage px-7 py-4 text-sm text-white transition-opacity hover:opacity-90 active:opacity-75">Send forespørgsel <span class="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER: mørk afslutning -->
+<footer class="bg-ink text-white">
+  <div class="mx-auto max-w-7xl px-5 md:px-10">
+    <!-- fire kolonner -->
+    <div class="grid grid-cols-2 gap-x-6 gap-y-10 py-16 text-sm md:grid-cols-12">
+      <div class="col-span-2 md:col-span-4">
+        <p class="tag text-sagelight">Showroom</p>
+        <address class="mt-4 not-italic leading-7 text-white/80">Banio A/S<br/>Læhegnet 75<br/>2620 Albertslund
+          <span class="mt-3 block"><a class="link hover:text-white" href="tel:+4536304362">36 30 43 62</a><br/>
+          <a class="link hover:text-white" href="mailto:info@banio.dk">info@banio.dk</a></span>
+        </address>
+        <dl class="mt-4 grid max-w-[15rem] grid-cols-[1fr_auto] gap-y-1 text-white/80">
+          <dt class="text-white/45">Mandag–onsdag</dt><dd>Lukket</dd>
+          <dt class="text-white/45">Torsdag–fredag</dt><dd>9.00–17.30</dd>
+          <dt class="text-white/45">Lørdag–søndag</dt><dd>10.00–15.00</dd>
+        </dl>
+      </div>
+      <nav class="md:col-span-2" aria-label="Udvalg">
+        <p class="tag text-sagelight">Udvalg</p>
+        <ul class="mt-4 grid gap-2 text-white/80">
+          <li><a class="link hover:text-white" href="#bordplader">Køkkenbordplader</a></li>
+          <li><a class="link hover:text-white" href="#vask">Køkkenvask</a></li>
+          <li><a class="link hover:text-white" href="#spisebord">Spiseborde</a></li>
+          <li><a class="link hover:text-white" href="#fliser">Fliser</a></li>
+        </ul>
+      </nav>
+      <nav class="md:col-span-2" aria-label="Banio">
+        <p class="tag text-sagelight">Banio</p>
+        <ul class="mt-4 grid gap-2 text-white/80">
+          <li><a class="link hover:text-white" href="#referencer">Referencer</a></li>
+          <li><a class="link hover:text-white" href="#om">Om Banio</a></li>
+          <li><a class="link hover:text-white" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="col-span-2 md:col-span-4 md:justify-self-end">
+        <p class="tag text-sagelight">Italienske leverandører</p>
+        <ul class="mt-4 grid gap-2 text-white/80">
+          <li>Atlas Plan</li><li>Florim</li><li>Fondovalle</li><li>Ceramica Sant'Agostino</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- bundlinje -->
+    <div class="tag flex flex-col justify-between gap-4 border-t border-white/10 py-6 text-[10px] text-white/45 md:flex-row md:items-center">
+      <div class="flex flex-wrap items-center gap-x-6 gap-y-2">
+        <img src="banio-logo-white.png" alt="Banio" width="71" height="14" class="opacity-70"/>
+        <span>© Banio A/S · CVR 13204691</span>
+        <a class="link hover:text-white" href="/cookie-og-privatlivspolitik/">Cookie- og privatlivspolitik</a>
+      </div>
+      <div class="flex gap-6">
+        <a class="link hover:text-white" href="https://www.instagram.com/banio_bad/">Instagram</a>
+        <a class="link hover:text-white" href="https://www.facebook.com/banioas">Facebook</a>
+        <a class="link hover:text-white" href="https://www.linkedin.com/company/banio-a-s/">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- fast handlingsbjælke på mobil: vises efter hero, skjules ved formularen -->
+<div id="mobBar" class="fixed inset-x-0 bottom-0 z-20 grid translate-y-full grid-cols-2 border-t border-line bg-paper/95 backdrop-blur transition-transform duration-300 md:hidden" aria-label="Kontakt Banio">
+  <a href="tel:+4536304362" class="flex items-center justify-center gap-2 py-4 text-sm text-ink">Ring 36 30 43 62</a>
+  <a href="#kontakt" class="flex items-center justify-center gap-2 bg-sage py-4 text-sm text-white">Send forespørgsel →</a>
+</div>
+<script>
+  (() => {
+    const bar = document.getElementById('mobBar'), form = document.getElementById('kontakt');
+    let formVisible = false;
+    new IntersectionObserver(([e]) => { formVisible = e.isIntersecting; f(); }).observe(form);
+    const f = () => bar.classList.toggle('translate-y-full', !(scrollY > innerHeight * 0.8 && !formVisible));
+    addEventListener('scroll', f, { passive: true }); f();
+  })();
+</script>
+</body>
+</html>
